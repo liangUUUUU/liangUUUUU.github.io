@@ -114,10 +114,15 @@ nav a:hover{ /*偵測滑鼠移動*/
     display:flex; 
     justify-content: center; 
     gap: 80px;
+    justify-content: space-around; /* 讓兩個區塊均勻分布 */
+    align-items: center; /* 確保垂直對齊 */
 }
 
-
-
+.specialize, .skill {
+    width: 45%; /* 或者用一樣的百分比寬度讓它們對齊 */
+    max-width: 400px; /* 設定最大寬度，避免過寬 */
+    box-sizing: border-box;
+}
 
 .specialize{
     display: flex;
@@ -127,7 +132,7 @@ nav a:hover{ /*偵測滑鼠移動*/
     margin: 10px 10px;
     padding: 20px;
     border-radius: 15px;
-    height: 500px;
+    height: 550px;
     width: 390px;
     background-color: white;
     border: #153243 3px solid;
@@ -149,7 +154,7 @@ nav a:hover{ /*偵測滑鼠移動*/
     flex-direction: column;
     display: flex;
     justify-content: center; /* 置中對齊 */
-    gap: 30px; /* 調整間距 */
+    gap: 10px; /* 調整間距 */
     width: 100%; /* 占滿寬度，確保對齊 */
     max-width: 300px;
 
@@ -167,7 +172,7 @@ nav a:hover{ /*偵測滑鼠移動*/
     margin: 10px 10px;
     padding: 20px;
     border-radius: 15px;
-    height: 500px;
+    height: 550px;
     width: 390px;
     background-color: white;
     border: #153243 3px solid;
@@ -277,7 +282,7 @@ section h3{
 }
 
 .experience-container {
-    width: 80%; /*經歷背景大小比例*/
+    width: 85%; /*經歷背景大小比例*/
     margin: 1cm 3cm;
     padding: 20px;
     height: auto;
@@ -378,7 +383,7 @@ section h3{
 .bigger {
     display: flex;          /* 水平排列圖示 */
     justify-content: center; /* 置中圖示 */
-    gap: 20px;              /* 圖示之間的間距 */
+
 }
 
 .bigger img {
@@ -392,6 +397,7 @@ section h3{
     transform: scale(1.2);      /* 放大圖示 */
     
 }
+
 
   
 
