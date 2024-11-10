@@ -113,7 +113,7 @@ nav a:hover{ /*偵測滑鼠移動*/
 .Totalability2{
     display:flex; 
     justify-content: center; 
-    gap: 100px;
+    gap: 80px;
 }
 
 
